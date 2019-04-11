@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS student (id serial PRIMARY KEY, name text, hometown text);
+INSERT INTO student (name, hometown) VALUES ('Field', 'Sada'), ('Dulcine', 'Alor Setar'),('Genevra', 'Drummondville'), ('Valera', 'Corpus Christi'), ('Findlay', 'Tangier'), ('Kristina', 'Kangar'), ('Juliet', 'Kraaifontein'), ('Christie', 'Prosperidad'), ('Tasia', 'Al Maşdūr'), ('Ileane', 'Kalangsari');
